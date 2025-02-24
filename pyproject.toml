@@ -1,0 +1,22 @@
+[project]
+name = "taxi-station-pakistan"
+version = "0.1.0"
+description = "A Streamlit web app for finding taxi stations in Pakistan"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "opencv-python",
+    "pillow",
+    "folium",
+    "streamlit-folium"
+]
+
+[project.scripts]
+pro-1 = "pro_1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
